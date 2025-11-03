@@ -13,11 +13,11 @@ It integrates theoretical, behavioral, and proof-of-concept (PoC) models to reve
 
 | File | Description |
 |------|--------------|
-| `MusicAnalysis_Integrated_v2.sysml` | Main SysML v2 model integrating Context, Concept, Behavior, and Requirements layers. |
-| `MusicAnalysis_PoC_SystemModel.sysml` | Proof-of-Concept structural and behavioral model demonstrating practical analysis pipeline. |
-| `MusicAnalysis_PoC_SystemModel_Req.sysml` | PoC requirements verifying feasibility (pattern detection, visualization, reproducibility). |
-| `model.md` | High-level documentation explaining the goal, approach, main components, and implementation plan. |
-| `prompt.md` | Chronological record of prompts and design reasoning tracing model evolution. |
+| [MusicAnalysis_Integrated_v2.sysml](sysml/MusicAnalysis_Integrated_v2.sysml) | Main SysML v2 model integrating Context, Concept, Behavior, and Requirements layers. |
+| [MusicAnalysis_PoC_SystemModel.sysml](sysml/MusicAnalysis_PoC_SystemModel.sysml) | Proof-of-Concept structural and behavioral model demonstrating practical analysis pipeline. |
+| [MusicAnalysis_PoC_SystemModel_Req.sysml](sysml/MusicAnalysis_PoC_SystemModel_Req.sysml) | PoC requirements verifying feasibility (pattern detection, visualization, reproducibility). |
+| [model.md](doc/model.md) | High-level documentation explaining the goal, approach, main components, and implementation plan. |
+| [prompt.md](doc/prompt.md) | Chronological record of prompts and design reasoning tracing model evolution. |
 | `README.md` | (this file) Overview and guidance for using the repository. |
 
 ---
@@ -47,7 +47,7 @@ with a central *MusicAnalysis* process that extracts and shares latent structure
 
 - The PoC can be prototyped in Python using:
   - `music21`, `miditoolkit` for symbolic feature extraction  
-  - `NetworkX`, `igraph` for graph analysis  
+  - `NetworkX`, `igraph`,`cytoscape`  for graph analysis  
   - `pomegranate`, `pgmpy`, `PyMC` for HMM/Bayesian modeling  
   - `scikit-learn`, `UMAP`, `matplotlib`, `plotly` for geometric embedding and visualization  
 - See **model.md** for the conceptual goal and plan, and **prompt.md** for the development rationale.
