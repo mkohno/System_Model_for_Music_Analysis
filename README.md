@@ -1,4 +1,4 @@
-# System_Model_for_Music_Analysis
+# System_Models_for_Music_Analysis
 Artifacts from SysML v2 class by @lbalmelli
 
 ## Music Analysis Integrated Model (SysML v2)
