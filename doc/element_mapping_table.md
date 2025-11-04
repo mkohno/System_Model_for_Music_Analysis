@@ -1,5 +1,11 @@
 # 🎼 Element Mapping Table for *MusicAnalysis_PoC_SystemModel*
 
+This table documents the correspondence between **conceptual elements**, **SysML v2 model components**,  
+and their **behavioral actions and computational implementations** within the Proof-of-Concept (PoC) system.  
+It provides traceability across the conceptual, structural, and practical layers of the model—  
+showing how theoretical constructs such as *LatentStructure* and *Representation* are realized through  
+specific PoC modules, analytical actions, and software tools.
+
 | Concept Model Element | Structure Model Part / Port | Behavior (Action / Flow) | Implementation / Tools | Purpose / Note |
 |------------------------|-----------------------------|---------------------------|-------------------------|----------------|
 | **MusicalWork** | `Ports::MidiInput`<br>`FeatureExtractor.midiIn` | `ExtractIntervals` | `music21`, `miditoolkit` | Input source (MIDI, symbolic score). |
