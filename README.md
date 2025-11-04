@@ -20,7 +20,7 @@ It integrates theoretical, behavioral, and proof-of-concept (PoC) models to reve
 | [prompt.md](doc/prompt.md) | Chronological record of prompts and design reasoning tracing model evolution using ChatGPT SysML v2 Model Creator. |
 | [poc.md](doc/poc.md) | Demonstration of how selected conceptual structures are being realized computationally using off-the-shelf tools. |
 | [element_mapping_table.md](doc/element_mapping_table.md) | Mapping table showing how conceptual elements correspond to SysML model components and PoC implementations. |
-| [diagram.md](doc/MK_System_Model_Music_Analysis.pdf) | Diagram for presentation |
+| [diagram.pdf](doc/MK_System_Model_Music_Analysis.pdf) | Diagram for presentation |
 | `README.md` | (this file) Overview and guidance for using the repository. |
 
 ---
