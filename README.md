@@ -17,7 +17,7 @@ It integrates theoretical, behavioral, and proof-of-concept (PoC) models to reve
 | [MusicAnalysis_PoC_SystemModel.sysml](sysml/MusicAnalysis_PoC_SystemModel.sysml) | Proof-of-Concept structural and behavioral model demonstrating practical analysis pipeline. |
 | [MusicAnalysis_PoC_SystemModel_Req.sysml](sysml/MusicAnalysis_PoC_SystemModel_Req.sysml) | PoC requirements verifying feasibility (pattern detection, visualization, reproducibility). |
 | [model.md](doc/model.md) | High-level documentation explaining the goal, approach, main components, and implementation plan. |
-| [prompt.md](doc/prompt.md) | Chronological record of prompts and design reasoning tracing model evolution. |
+| [prompt.md](doc/prompt.md) | Chronological record of prompts and design reasoning tracing model evolution using ChatGPT SysML v2 Model Creator. |
 | `README.md` | (this file) Overview and guidance for using the repository. |
 
 ---
