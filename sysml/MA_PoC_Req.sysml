@@ -2,7 +2,7 @@ package MusicAnalysis_PoC_SystemModel_Req {
 
     doc
     /*
-     * Proof-of-Concept System Model for "Latent Structure in Music Analysis"
+     * Proof-of-Concept System Model for "Latent Structure in Music Analysis" - Requirement
      * ---------------------------------------------------------------
      * Goal: prototype the extraction and visualization of latent musical structures
      * using currently available analytical and computational resources.
